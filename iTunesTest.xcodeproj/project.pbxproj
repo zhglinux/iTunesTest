@@ -21,6 +21,8 @@
 		181A108C19447C87002203B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181A106E19447C87002203B1 /* UIKit.framework */; };
 		181A109419447C87002203B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 181A109219447C87002203B1 /* InfoPlist.strings */; };
 		181A109619447C87002203B1 /* iTunesTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 181A109519447C87002203B1 /* iTunesTestTests.m */; };
+		181A10A019447E34002203B1 /* QuickLook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181A109F19447E34002203B1 /* QuickLook.framework */; };
+		181A10A219447FF6002203B1 /* testPic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 181A10A119447FF6002203B1 /* testPic.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		181A109119447C87002203B1 /* iTunesTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iTunesTestTests-Info.plist"; sourceTree = "<group>"; };
 		181A109319447C87002203B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		181A109519447C87002203B1 /* iTunesTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iTunesTestTests.m; sourceTree = "<group>"; };
+		181A109F19447E34002203B1 /* QuickLook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLook.framework; path = System/Library/Frameworks/QuickLook.framework; sourceTree = SDKROOT; };
+		181A10A119447FF6002203B1 /* testPic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = testPic.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181A10A019447E34002203B1 /* QuickLook.framework in Frameworks */,
 				181A106D19447C87002203B1 /* CoreGraphics.framework in Frameworks */,
 				181A106F19447C87002203B1 /* UIKit.framework in Frameworks */,
 				181A106B19447C87002203B1 /* Foundation.framework in Frameworks */,
@@ -82,6 +87,7 @@
 		181A105E19447C87002203B1 = {
 			isa = PBXGroup;
 			children = (
+				181A109F19447E34002203B1 /* QuickLook.framework */,
 				181A107019447C87002203B1 /* iTunesTest */,
 				181A108F19447C87002203B1 /* iTunesTestTests */,
 				181A106919447C87002203B1 /* Frameworks */,
@@ -112,6 +118,7 @@
 		181A107019447C87002203B1 /* iTunesTest */ = {
 			isa = PBXGroup;
 			children = (
+				181A10A119447FF6002203B1 /* testPic.jpg */,
 				181A107919447C87002203B1 /* AppDelegate.h */,
 				181A107A19447C87002203B1 /* AppDelegate.m */,
 				181A107C19447C87002203B1 /* Main.storyboard */,
@@ -228,6 +235,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181A10A219447FF6002203B1 /* testPic.jpg in Resources */,
 				181A108319447C87002203B1 /* Images.xcassets in Resources */,
 				181A107519447C87002203B1 /* InfoPlist.strings in Resources */,
 				181A107E19447C87002203B1 /* Main.storyboard in Resources */,
